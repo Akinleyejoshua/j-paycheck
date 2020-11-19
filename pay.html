@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paycheck</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <main id="paycheck">
+        <div class="dashboard">
+            <p>N</p>
+            <h4 id="bal">0.00</h4>
+        </div>
+        <form method="dialog">
+            <div class="input">
+                <input type="email" id="email" placeholder="email address">
+            </div>
+            <div class="input">
+                <input type="" id="amount" placeholder="N0.00">
+            </div>
+            <div class="input">
+                <p>Select Payment Option</p>
+                <select>
+                    <option>Paypal</option>
+                    <option>Credit Card</option>
+                </select>
+            </div>
+            <button onclick="paycash();">Pay</button>
+        </form>
+    </main>
+    <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
